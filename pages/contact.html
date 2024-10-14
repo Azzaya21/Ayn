@@ -5,26 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="header-left">
-            <div class="logo"></div>
+        <section class="header-left">
+            <section class="logo"></section>
             <span>Аян</span>
-        </div>
-        <div class="nav-links">
+        </section>
+        <section class="nav-links">
             <a href="./index.html">Нүүр хуудас</a>
             <a href="#">Аялал</a>
             <a href="#">Зөвлөгөө</a>
             <a href="#">Бидний тухай</a>
             <a href="#">Холбоо барих</a>
-        </div>
-        <div class="language-switch">
+        </section>
+        <section class="language-switch">
             <img src="mongolia-flag.png" alt="Mongolian">
             <img src="uk-flag.png" alt="English">
-            <div><span>Д</span></div>
-        </div>
+            <section><span>Д</span></section>
+        </section>
     </header>
+    <div class="container">
+        <section class="maps-container"></section>
+        <div class="contact-container">
+            <div class="form-section">
+                <h2>Хүсэлт илгээх</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Таны овог нэр:</label>
+                        <input type="text" id="name" placeholder="Таны овог нэр">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Утасны дугаар:</label>
+                        <input type="text" id="phone" placeholder="Утасны дугаар">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">e.mail хаяг:</label>
+                        <input type="email" id="email" placeholder="e.mail хаяг">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Санал хүсэлт:</label>
+                        <textarea id="message" placeholder="Санал хүсэлт"></textarea>
+                    </div>
+                    <button type="submit">Илгээх</button>
+                </form>
+            </div>
+            <div class="contact-section">
+                <h2>Холбоо барих</h2>
+                <p><strong>Хаяг:</strong> Улаанбаатар, БЗД, 1-р хороо, Seoul Business Center, 711 тоот.</p>
+                <p><strong>Имэйл:</strong> <a href="mailto:info@ayn.mn">info@ayn.mn</a> | <a href="mailto:ayn.mn@gmail.com">ayn.mn@gmail.com</a></p>
+                <p><strong>Утас:</strong> 70001160, 80202050</p>
+                <p><strong>Social ID:</strong> <a href="https://www.facebook.com/AynTravel" target="_blank">https://www.facebook.com/AynTravel</a></p>
+                <p><strong>Цагийн хуваарь:</strong> Даваа - Баасан: 09:00 - 18:00</p>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>Аян</h2>
+        </div>
+        <div class="footer-links">
+            <h3>Холбоосууд</h3>
+            <ul>
+                <li><a href="#">Аяллууд</a></li>
+                <li><a href="#">Аялал санал болгох</a></li>
+                <li><a href="#">Аялагчдын тэмдэглэл</a></li>
+                <li><a href="#">Зөвлөгөө</a></li>
+                <li><a href="#">Нийтлэл</a></li>
+                <li><a href="#">Холбоо барих</a></li>
+                <li><a href="#">Бидний тухай</a></li>
+                <li><a href="#">Нэвтрэх</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Холбоо барих</h3>
+            <p>Улаанбаатар, БЗД, 1-р хороо, Seoul Business Center, 711 тоот.</p>
+            <p>+976 70001160<br>+976 80202050</p>
+            <p>Даваа - Баасан: 09:00 - 18:00</p>
+            <p><a href="mailto:info@ayn.mn">info@ayn.mn</a> | <a href="mailto:ayn.mn@gmail.com">ayn.mn@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <hr>
+        <p>Copyright 2024 ©company</p>
+    </div>
+</footer>
 </body>
 </html>
